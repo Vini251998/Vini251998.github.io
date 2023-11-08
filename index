@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6G6S4F7VP6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6G6S4F7VP6');
+</script>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset style="width: 50px;">
+        Usuario<input type="text" name="usuario" id="usuario" value="" /><br/>
+        senha<input type="password" name="senha" id="senha" value="">
+            <hr>
+            <input type="radio" name="tipo" id="P" value=""> Professor <br/>
+            <input type="radio" name="tipo" id="A" value=""> Aluno <br/>
+            <br/>
+            <hr>
+            Assuntos de interrese: <br/>
+            <input type="checkbox" name="assunto" id="Assunto1" value="P"> Viagens <br/>
+            <input type="checkbox" name="assunto" id="Assunto2" value="A"> Comida <br/>
+            <input type="checkbox" name="assunto" id="Assunto3" value="P"> Esportes <br/>
+            <input type="checkbox" name="assunto" id="Assunto4" value="A"> Games <br/>
+            
+
+            Selecione uma cor: <input type="color" name="cor" id="cor"><br/>
+            E-mail: <input type="email" name="email" id="email"><br/>
+            Data de nascimento <input type="date" name="date" id="date" min="1998-03-14" max="2023-03-21"><br/>
+            Data de nascimento <input type="datetime-local" name="datetime-local" id="datanascimento1"><br/>
+            Idade <input type="number" name="idade" min="10" max="15" step=".01"><br/>
+            <hr>
+            Hora <input type="time" name="Horario" id="Horario"><br/>
+            <br/>
+            Curriculo <input type="file" name="Curriculo" id="Curriculo"><br/>
+            <br/>
+            Linkdin <input type="url" name="Linkdin" id="Linkdin"><br/>
+            <br/>
+
+            Semana <input type="week" name="semana" id="semana"><br/>
+            <br/>
+
+            Observações <textarea name="Observações" id="Observações" cols="20" rows="5"></textarea><br/>
+            <br/>
+            Idade <select name="selcidade" id="selcidade">
+                <option value="">**SELECIONE**</option>
+                <option value="Campinas">Campinas</option>
+                <option value="Campinas">Sumaré</option>
+                <option value="Campinas">Hortolandia</option>
+                <option value="Campinas">Americana</option>
+            </select>
+
+            <input type="hidden" name="v10oculto" id="meu valor"><br/>
+            <br/>
+            <hr>
+            
+            <input type="submit" name="btenviar" id="btenviar" value="Cadastrar"/>
+            <input type="reset" name="btlimpar" id="btlimpar" value="limpar"/>
+            <hr>
+            <br/>
+    </form>
+</fieldset>
+
+
+
+</body>
+</html>
